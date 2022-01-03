@@ -21,12 +21,12 @@ Project manager with hands-on experience in agile software development mainly of
 * Git
 * VS Code
 ## Code Example *(codewars.com)*
-
+``` JS
 function multiply(a, b){
  a * b  
   return a * b
 }
-
+```
 
 ## Education
 * University: Belarusian State University - *Management (International Tourism Management)* 
