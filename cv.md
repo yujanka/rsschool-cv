@@ -27,7 +27,7 @@ function multiply(a, b){
  a * b  
   return a * b
 }
-```
+``` 
 ## Education
 * University: Belarusian State University - *Management (International Tourism Management)* 
 * Сourses: RS Schools Course «JavaScript/Front-end. Stage 0» *(in progress)*
