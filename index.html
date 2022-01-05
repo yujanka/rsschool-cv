@@ -1,12 +1,136 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Моя первая страница</title>
-  <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon.ico">
 </head>
 <body>
-<h1>my very first page</h1>
-<p>That's my begging in development</p>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item">
+                      <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                  <li class="nav-item">
+                      <a href="#summary" class="nav-link">Summary</a>
+                    </li>
+                  <li class="nav-item">
+                      <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                  <li class="nav-item">
+                      <a href="#code" class="nav-link">Code</a>
+                    </li>
+                  <li class="nav-item">
+                      <a href="#education" class="nav-link">Education</a>
+                    </li>
+                  <li class="nav-item">
+                      <a href="#projects" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link">Languages</a>
+                </li>
+                </ul>
+              </nav> 
+        </div>   
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <img src="./assets/img/avatar.png" alt="my avatar" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Yana Karas</h1>
+                    <h3 class="section-subtitle">Front-End Developer Trainee</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li>Location: Minsk, Belarus</li>
+                    <li>
+                        Tel: 
+                        <a href="tel:+375298335260" class="section-item">+375 298335260</a>
+                    </li>
+                    <li>
+                        E-mail: 
+                        <a href="mailto:yanaks0494@gmail.com" class="section-item">yanaks0494@gmail.com</a>
+                    </li>
+                    <li>
+                        Telegram: 
+                        <a href="hhttps://t.me/Yana_Karas" class="section-item">Yana Karas</a>
+                    </li>
+                    <li>
+                        GitHub:
+                         <a href="https://github.com/yujanka" class="section-item">Yana Karas</a>
+                    </li>
+                    <li>
+                        Discord:
+                         <a href="https://discord.gg/D53WZuRR" class="section-item">Yana K#1060</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Scrum master with hands-on experience in agile software development mainly of enterprise projects focusing on leading cross-functional teams to plan, build, launch and deliver valuable solutions to the customer. Experienced in working directly with clients to ensure that the project goals are achieved on time, within budget and scope. The main goal is to dive deeper into engineer work and be on the same page with engineers during tasks discussion and decomposition.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list-skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                    <code>
+function multiply(a,b){
+a * b
+return a * b
+}
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>University: Belarusian State University - Management (International Tourism Management) </p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a href="https://yujanka.github.io/rsschool-cv" class="section-link">CV</a>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list-languages">
+                    <li>Russian – Native</li>
+                    <li>English – Upper-Intermediate</li>
+                    <li>German – Elementary</li>
+                </ul>
+            </section>   
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://rs.school/js/" class="rss"></a>
+            <div>
+                <a href="https://github.com/yujanka" class="github">yujanka</a> 
+                © 2022
+            </div>
+        </div>
+    </footer> 
 </body>
 </html>
